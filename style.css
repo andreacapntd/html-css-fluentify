@@ -26,8 +26,17 @@ header {
   height: 50px;
 }
 
-nav {
+.first,.second {
   display: inline-block;
+}
+
+.second {
+  margin-left: 140px;
+}
+
+.navlist {
+  color: white;
+  text-decoration: none;
 }
 
 ul li {
@@ -35,11 +44,31 @@ ul li {
   padding: 0 20px;
 }
 
-
-.navlist {
-  color: white;
-  text-decoration: none;
+.button {
+ border: 2px solid white;
+ border-radius: 5px;
+ color: white;
+ padding: 15px 22px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
 }
+
+.button1 {
+  background-color: inherit;
+}
+
+.button2 {
+  background-color: green;
+}
+
+
+
+
+
 
 
 
