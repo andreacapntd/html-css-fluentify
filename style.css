@@ -6,13 +6,22 @@
   box-sizing: border-box;
 }
 
+/* .centering {
+  padding: 0 10%;
+} */
+
 /* Header */
 
 header {
-  /* debug */
-  height: 400px;
+  height: 700px;
   background-color: blue;
+  background-image: url(img/fluentify-jumbo.png);
+  background-size: cover;
 }
+
+
+
+
 
 /* //Header */
 
@@ -35,13 +44,13 @@ main {
 
 /* Course plan */
 
-.course-plan::after {
+.course-plan1::after,.course-plan2::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.course-plan {
+.course-plan1 {
   border-bottom: 3px solid black;
 }
 
@@ -71,5 +80,14 @@ main {
 }
 
 /* //Course plan */
+
+/* Action */
+
+.action {
+  height: 70px;
+  background-color: gray;
+}
+
+/* //Action */
 
 /* //Main */
