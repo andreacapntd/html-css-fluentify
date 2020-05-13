@@ -20,13 +20,25 @@ header {
 
 main {
   /* debug */
-  height: 300px;
+  height: 600px;
   background-color: red;
 }
+
+/* Slogan */
 
 .slogan {
   height: 200px;
   background-color: gray;
+}
+
+/* //Slogan */
+
+/* Course plan */
+
+.course-plan {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* //Main */
