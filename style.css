@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-/* .centering {
-  padding: 0 10%;
-} */
-
 /* Header */
 
 header {
@@ -20,6 +16,34 @@ header {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
+.logo {
+  padding: 2% 5%;
+  display: inline-block;
+}
+
+#main-logo {
+  height: 50px;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+.navlist {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
 
 
 
