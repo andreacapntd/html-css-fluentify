@@ -35,10 +35,41 @@ main {
 
 /* Course plan */
 
-.course-plan {
+.course-plan::after {
   content: "";
   display: table;
   clear: both;
 }
+
+.course-plan {
+  border-bottom: 3px solid black;
+}
+
+
+.formative-plan,.tutor,.monitoring {
+  float: left;
+  width: 30%;
+  /* debug */
+  height: 300px;
+  background-color: yellow;
+}
+
+.tutor {
+  margin: 0 5%;
+}
+
+.graphic, .discover {
+  float: left;
+  width: 45%;
+  /* debug */
+  height: 300px;
+  background-color: green;
+}
+
+.discover {
+  margin-left: 10%;
+}
+
+/* //Course plan */
 
 /* //Main */
