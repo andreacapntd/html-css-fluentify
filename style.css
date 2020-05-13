@@ -5,3 +5,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Header */
+
+header {
+  /* debug */
+  height: 300px;
+  background-color: blue;
+}
+
+/* //Header */
+
+/* Main */
+
+main {
+  /* debug */
+  height: 300px;
+  background-color: red;
+}
+
+/* //Main */
