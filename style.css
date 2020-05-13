@@ -15,6 +15,7 @@ header {
   background-size: 1000px 500px;
   background-repeat: no-repeat;
   background-position: bottom right;
+  position: relative;
 }
 
 .logo {
@@ -65,8 +66,35 @@ ul li {
   background-color: green;
 }
 
+.title {
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  width: 40%;
+}
 
+h1 {
+  color: white;
+  font-size: 76px;
+}
 
+.button3 {
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: green;
+  position: absolute;
+  left: 5%;
+  bottom: 20%;
+
+}
 
 
 
