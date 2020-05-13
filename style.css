@@ -37,12 +37,13 @@ header {
 
 .navlist {
   color: white;
+  font-size: 20px;
   text-decoration: none;
 }
 
 ul li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 13px;
 }
 
 .button {
@@ -95,16 +96,6 @@ h1 {
   bottom: 20%;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 /* //Header */
 
